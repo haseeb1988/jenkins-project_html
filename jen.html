@@ -1,29 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {
-  background-color: #ff2400;
-}
-h1 { color: white; }
-h1 {
- text-align:center
-}
-h2 { color: white; }
-h2 {
- text-align:center
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Company Landing Page</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 10px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .hero-section {
+      background-image: url('https://via.placeholder.com/1500x600');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    .hero-section h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .hero-section p {
+      font-size: 20px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+    .feature {
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<img src="https://th.bing.com/th/id/R.a5ff6d9555aaab304b82dbbeb097d70e?rik=eSIVzw57Efld9Q&pid=ImgRaw&r=0" alt="websitepic" class = "center">
-<h1>IF YOU ARE SEEING THIS....</h1>
-<h2>It means the pipeline was successful</h2>
-  <h3>it is a new heading</h3>
+  <header>
+    <div class="container">
+      <h1>IT Company Name</h1>
+    </div>
+  </header>
+
+  <div class="hero-section">
+    <div class="container">
+      <h2>Welcome to Our IT Company</h2>
+      <p>Leading the way in innovative IT solutions</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Web Development</h3>
+        <p>Professional and responsive websites tailored to your needs</p>
+      </div>
+      <div class="feature">
+        <h3>Mobile App Development</h3>
+        <p>Custom mobile apps for iOS and Android platforms</p>
+      </div>
+      <div class="feature">
+        <h3>Cloud Services</h3>
+        <p>Scalable and secure cloud solutions for your business</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 IT Company Name. All rights reserved.</p>
+  </footer>
 </body>
+</html>
